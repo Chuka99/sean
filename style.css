@@ -1,0 +1,109 @@
+/*This contains style for entire web page*/
+body{
+	
+	text-align: center;
+	font-family: "Merriweather Sans", sans-serif;
+	background-color: #e0ebe8;
+}
+
+p{
+	font-family: "Montserrat", system-ui;
+	    font-size: 1em;
+
+}
+input{
+	background-color: #45b29a;
+	border-radius: 5%;
+	border-style: none;
+	padding: 10px 20px;
+	margin-bottom: 100px;
+}
+h1{
+	font-family: "Sacramento", cursive;
+	font-size: 80px ;
+	color: #66BFBF ;
+}
+h2{
+	color: #1e836c;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+h3{
+	
+    color: #45b29a;
+}
+a{
+	margin-right: 50px;
+	text-decoration: none;
+}
+a{
+	color: #45b29a;
+}
+a:hover{
+	color: blue;  /* Changes text color to blue on hover */
+}
+/*This contains css for the top section, adding background color and width*/
+.top-section{
+	width: 100%;
+}
+
+
+.top-cloud{
+	margin-top: 100px;
+	margin-left: 50%; 
+/* We can also use pixel here for the margin	*/
+}
+
+.bottom-cloud{
+	margin-right: 50%;
+}
+
+
+/*Mid section*/
+.mid-section{
+	background-color: white;
+}
+.profileimage{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.webdesigner{
+	width: 29%;
+	margin: 10px auto;
+	line-height: 2;
+}
+
+.mid-low{
+	width: 80%;
+	margin: 100px auto;
+	background-color: white;
+}
+.skills-row{
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+.comp{
+	width: 25%;
+	float: left;
+	margin-right: 50px;
+}
+.chillies{
+	width: 25%;
+	float: right;
+	margin-left: 50px;
+}
+.bottomsect{
+	width: 50%;
+	margin: 100px auto 50px;
+}
+.footer{
+	padding: 30px auto;
+	color: #45b29a;
+}
+
